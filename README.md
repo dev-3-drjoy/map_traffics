@@ -1,6 +1,6 @@
 # 🚦 Traffic Bot Telegram
 
-Bot Telegram kiểm tra tắc đường từ điểm A đến B, dùng Google Maps Directions API.
+Bot Telegram kiểm tra tắc đường từ điểm A đến B, dùng Google Maps Routes API, Geocoding API
 
 ---
 
@@ -16,11 +16,11 @@ Bot Telegram kiểm tra tắc đường từ điểm A đến B, dùng Google Ma
 
 1. Vào [console.cloud.google.com](https://console.cloud.google.com)
 2. Tạo project mới (hoặc dùng project có sẵn)
-3. Vào **APIs & Services → Library** → tìm và bật **Directions API**
+3. Vào **APIs & Services → Library** → tìm và bật **Routes API, Geocoding API**
 4. Vào **APIs & Services → Credentials → Create Credentials → API Key**
 5. Copy API key
 
-> 💡 Google cho $200 credit/tháng miễn phí. Directions API tốn ~$5/1000 request.
+> 💡 Google cho $200 credit/tháng miễn phí.
 > Dùng cá nhân gần như không bao giờ hết free tier.
 
 ### Bước 3 — Cài đặt và chạy
